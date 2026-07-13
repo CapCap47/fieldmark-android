@@ -1,0 +1,20 @@
+{
+  "name": "fieldmark",
+  "version": "1.0.0",
+  "description": "Fieldmark drawing viewer — Capacitor Android wrapper",
+  "private": true,
+  "scripts": {
+    "vendor:pdfjs": "node scripts/copy-pdfjs.js",
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap copy && npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "pdfjs-dist": "2.16.105"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

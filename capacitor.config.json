@@ -1,0 +1,12 @@
+{
+  "appId": "com.fieldmark.viewer",
+  "appName": "Fieldmark",
+  "webDir": "www",
+  "backgroundColor": "#0A1220",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
